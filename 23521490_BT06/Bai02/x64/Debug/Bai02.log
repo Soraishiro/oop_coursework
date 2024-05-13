@@ -1,0 +1,6 @@
+﻿  cSoPhuc.cpp
+D:\oop\23521490_BT06\Bai02\cSoPhuc.cpp(35,1): warning C4172: returning address of local variable or temporary: res
+D:\oop\23521490_BT06\Bai02\cSoPhuc.cpp(42,1): warning C4172: returning address of local variable or temporary: res
+D:\oop\23521490_BT06\Bai02\cSoPhuc.cpp(49,1): warning C4172: returning address of local variable or temporary: res
+D:\oop\23521490_BT06\Bai02\cSoPhuc.cpp(56,1): warning C4172: returning address of local variable or temporary: res
+  Bai02.vcxproj -> D:\oop\23521490_BT06\x64\Debug\Bai02.exe

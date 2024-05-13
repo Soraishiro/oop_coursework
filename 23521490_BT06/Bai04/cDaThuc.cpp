@@ -111,6 +111,7 @@ int main(){
     cDaThuc a, b, res;
     cout << "1. Nhap da thuc a: " << endl; a.Nhap();
     cout << "2. Nhap da thuc b: " << endl; b.Nhap();
+    cout << "3. Minh hoa: " << endl;
     cout << "a + b: "; res = a + b; res.Xuat();
     cout << "a - b: "; res = a - b; res.Xuat();
     cout << "a * b: "; res = a * b; res.Xuat();

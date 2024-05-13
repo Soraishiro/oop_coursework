@@ -1,0 +1,6 @@
+﻿  cDiem.cpp
+D:\oop\23521490_BT05\Bai01\cDiem.h(11,19): error C2801: 'operator =' must be a non-static member
+  (compiling source file 'cDiem.cpp')
+  
+D:\oop\23521490_BT05\Bai01\cDiem.cpp(16,15): error C2600: 'cDiem::operator =': cannot define a compiler-generated special member function (must be declared in the class first)
+D:\oop\23521490_BT05\Bai01\cDiem.cpp(25,7): error C2264: 'cDiem::operator =': error in function definition or declaration; function not called

@@ -8,15 +8,22 @@ using namespace std;
 
 void cThuMuc::Nhap(){
     cout << "- Nhap thu muc cha " << endl;
-    cout << "Ten doi tuong luu tru: "; getline(cin, name);
-    cout << "Ngay tao lap (ddmmyyyy): "; cin.ignore(); getline(cin, dateCreated);
+    cout << "Ten doi tuong luu tru: ";
+    getline(cin, name);
+    cout << "Ngay tao lap (ddmmyyyy): ";
+    cin.ignore(); 
+    getline(cin, dateCreated);
     int n;
-    cout << "- Nhap so luong doi tuong luu tru con: "; cin >> n;
+    cout << "- Nhap so luong doi tuong luu tru con: ";
+    cin >> n;
+    cin.ignore();
     thuMuc.resize(n);
     for (int i = 0; i < n; i++) {
         int tmp;
         cout << "+ Doi tuong con thu " << i + 1 << ": " << endl;
-        cout << "Loai doi tuong luu tru (1-Tap tin, 2-Thu muc): "; cin >> tmp;
+        cout << "Loai doi tuong luu tru (1-Tap tin, 2-Thu muc): ";
+        cin >> tmp;
+        cin.ignore();
         if (tmp == 1){
             cTapTin* newObject = new cTapTin();
             newObject->Nhap();
